@@ -1,0 +1,16 @@
+Life
+40     18      2
+HeartCount
+80     18      2
+Stage
+193     1       1
+Score
+73      1       6
+Time
+73     10      3
+Health
+178      10      16
+SubWeapon
+105     10
+BossHealth
+178      18      16

@@ -1,0 +1,27 @@
+Sprite shuriken
+R	G	B
+255	0	128	128
+Animation Count
+2
+
+
+Name
+right
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			0			16				16				0			0
+16			0			16				16				0			0
+
+
+Name
+left
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+32			0			16				16				0			0
+16			0			16				16				0			0
+
+

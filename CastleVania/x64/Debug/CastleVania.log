@@ -1,0 +1,82 @@
+﻿  ActiveWater.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\scorebar.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(18): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(23): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(24): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(29): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(30): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(37): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(42): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(43): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(48): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\activewater.cpp(49): warning C4305: 'argument': truncation from 'double' to 'float'
+  debug.cpp
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\debug.cpp(11): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'wchar_t [4096]' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\debug.cpp(11): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  DelayTime.cpp
+  Game.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.cpp(44): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [29]' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.cpp(44): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.cpp(53): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [23]' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.cpp(53): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.cpp(91): error C2065: 'GWL_HINSTANCE': undeclared identifier
+  Gate1.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\scorebar.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  ItemSmallHeart.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\scorebar.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Player.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\scorebar.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\player.cpp(64): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\player.cpp(65): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\player.cpp(81): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\player.cpp(178): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\player.cpp(179): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\player.cpp(187): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\player.cpp(188): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TextureManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\texturemanager.cpp(26): error C2664: 'HRESULT D3DXGetImageInfoFromFileA(LPCSTR,D3DXIMAGE_INFO *)': cannot convert argument 1 from 'LPCWSTR' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\texturemanager.cpp(26): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\texturemanager.cpp(36): error C2664: 'HRESULT D3DXCreateTextureFromFileExA(LPDIRECT3DDEVICE9,LPCSTR,UINT,UINT,UINT,DWORD,D3DFORMAT,D3DPOOL,DWORD,DWORD,D3DCOLOR,D3DXIMAGE_INFO *,PALETTEENTRY *,LPDIRECT3DTEXTURE9 *)': cannot convert argument 2 from 'LPCWSTR' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\texturemanager.cpp(50): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\texturemanager.cpp(54): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [38]' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\texturemanager.cpp(54): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  SubWeaponTheAx.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\subweapontheax.cpp(9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\subweapontheax.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\subweapontheax.cpp(25): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\subweapontheax.cpp(36): warning C4305: 'argument': truncation from 'double' to 'float'
+  WinMain.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\game.h(9): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h(42): note: see previous definition of 'DIRECTINPUT_VERSION'
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\scorebar.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(65): warning C4244: 'argument': conversion from 'DWORD' to 'float', possible loss of data
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(113): error C2440: '=': cannot convert from 'const wchar_t [13]' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(113): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(119): error C2664: 'HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const wchar_t [13]' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(130): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(134): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [28]' to 'LPCSTR'
+  c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(134): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\cuong\desktop\castlevania-directx-master\castlevania\winmain.cpp(151): warning C4244: 'initializing': conversion from 'float' to 'DWORD', possible loss of data
+  Generating Code...

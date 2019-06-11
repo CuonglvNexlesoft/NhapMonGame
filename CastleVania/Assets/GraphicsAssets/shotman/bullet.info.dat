@@ -1,0 +1,25 @@
+Sprite 123
+R	G	B
+255	255	163	177
+Animation Count
+2
+
+
+Name
+bullet_right
+Frame Count
+1
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			0			8				4				0			0
+
+
+Name
+bullet_left
+Frame Count
+1
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+8			0			8				4				0			0
+
+

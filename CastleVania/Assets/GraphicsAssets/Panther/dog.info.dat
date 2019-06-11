@@ -1,0 +1,27 @@
+Sprite dog
+R	G	B
+255	255	163	177
+Animation Count
+2
+
+
+Name
+dog_right
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			1			31				14				0			0
+31			0			24				15				0			0
+
+
+Name
+Animation
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+55			0			24				15				0			0
+79			1			31				14				0			0
+
+

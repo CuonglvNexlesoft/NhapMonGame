@@ -1,0 +1,26 @@
+SpaceCount
+3
+
+Space1
+X       Y       Width       Height
+0       422      2050         208
+CameraX     CameraY
+0           200
+PlayerX     PlayerY
+50         100
+
+Space2
+X       Y       Width       Height
+2050         422      3060    208
+CameraX     CameraY
+2050         200
+PlayerX     PlayerY
+2060         200
+
+Space3
+X       Y       Width       Height
+5122    422      257         208
+CameraX     CameraY
+5122    200
+PlayerX     PlayerY
+5150    200

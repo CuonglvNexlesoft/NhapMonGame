@@ -1,0 +1,27 @@
+Sprite greenman
+R	G	B
+255	255	163	177
+Animation Count
+2
+
+
+Name
+greenman_right
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			0			15				32				0			0
+15			0			16				32				0			0
+
+
+Name
+greenman_left
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+31			0			16				32				0			0
+47			0			15				32				0			0
+
+

@@ -1,0 +1,45 @@
+Sprite ghost
+R	G	B
+255	255	163	177
+Animation Count
+4
+
+
+Name
+ghost_right
+Frame Count
+1
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			0			24				32				0			0
+
+
+Name
+ghost_run_right
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			0			24				32				0			0
+24			0			24				32				0			0
+
+
+Name
+ghost_left
+Frame Count
+1
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+48			0			24				32				0			0
+
+
+Name
+ghost_run_left
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+72			0			24				32				0			0
+48			0			24				32				0			0
+
+

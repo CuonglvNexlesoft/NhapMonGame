@@ -1,0 +1,25 @@
+Sprite shotman
+R	G	B
+255	255	163	177
+Animation Count
+2
+
+
+Name
+shootman_right
+Frame Count
+1
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			0			24				25				0			0
+
+
+Name
+shotman_left
+Frame Count
+1
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+24			0			24				25				0			0
+
+

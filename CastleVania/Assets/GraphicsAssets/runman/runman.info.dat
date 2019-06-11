@@ -1,0 +1,27 @@
+Sprite runman
+R	G	B
+255	255	163	177
+Animation Count
+2
+
+
+Name
+runman_right
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			0			16				32				0			0
+16			0			16				32				0			0
+
+
+Name
+runman_left
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+32			0			16				32				0			0
+48			0			16				32				0			0
+
+

@@ -1,0 +1,27 @@
+Sprite swordman
+R	G	B
+255	255	163	177
+Animation Count
+2
+
+
+Name
+swordman_right
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+0			8			24				32				0			0
+24			8			24				32				0			0
+
+
+Name
+swordman_left
+Frame Count
+2
+
+FrameX		FrameY		FrameWidth		FrameHeight		AnchorX		AnchorY
+104			8			24				32				0			0
+80			8			24				32				0			0
+
+
