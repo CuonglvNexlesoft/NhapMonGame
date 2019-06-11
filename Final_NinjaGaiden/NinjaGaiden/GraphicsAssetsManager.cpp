@@ -25,7 +25,7 @@ GraphicsAssetsManager::GraphicsAssetsManager()
 		allGraphicsAssets.push_back(new GraphicsAssets());
 	}
 
-	allGraphicsAssets[SPRITE_INFO_SIMON]->getGraphicsAssetsInfomation(TEXTURE_SIMON, L"Assets/GraphicsAssets/ryu.png", L"Assets/GraphicsAssets/ryu.info.dat");
+	allGraphicsAssets[SPRITE_INFO_SIMON]->getGraphicsAssetsInfomation(TEXTURE_SIMON, L"Assets/GraphicsAssets/ryu.png", L"Assets/GraphicsAssets/RYU.info.dat");
 	//allGraphicsAssets[SPRITE_INFO_SIMON]->getGraphicsAssetsInfomation(TEXTURE_SIMON, L"Assets/GraphicsAssets/Simon/image.png", L"Assets/GraphicsAssets/Simon/simon_animation.info.dat");
 }
 

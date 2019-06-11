@@ -388,17 +388,7 @@ void BaseObject::render(Camera * camera)
 {
 	if (!getIsAllowRender()) return;
 
-	///* nếu hướng mặt của nhân vật khác với hướng mặt trong bức hình thì tiến hành lật hình */
-	//if (imageDirection != currentDirection)
-	//{
-	//	int currentFrameWidth = getSprite()->animations[getAnimation()]->frames[getFrameAnimation()]->right -
-	//		getSprite()->animations[getAnimation()]->frames[getFrameAnimation()]->left;
-	//	D3DXMATRIX flipMatrix;
-	//	D3DXMatrixIdentity(&flipMatrix);
-	//	flipMatrix._11 = -1;
-	//	flipMatrix._41 = 2 * (xView + currentFrameWidth / 2);
-	//	GameDirectX::getInstance()->GetSprite()->SetTransform(&flipMatrix);
-	//}
+	
 	if (getGraphicsAssets() == 0) {
 		return;
 	}

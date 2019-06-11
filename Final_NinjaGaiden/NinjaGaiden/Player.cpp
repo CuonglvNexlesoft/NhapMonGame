@@ -43,6 +43,7 @@ void Player::setPlayerState(PLAYER_STATE playerState)
 void Player::setAction(int action)
 {
 	BaseObject::setAction(getDir()*PLAYER_ACTION_COUNT + action);
+	//BaseObject::setAction( action);
 }
 
 void Player::updatePlayerEvent()
@@ -91,7 +92,7 @@ void Player::updatePlayerEvent()
 			PLAYER->setPlayerState(PLAYER_STATE_NORMAL);
 			return;
 		}
-		PLAYER->setAction(PLAYER_ACTION_EAT_EFFECT);
+		//PLAYER->setAction(PLAYER_ACTION_EAT_EFFECT);
 		PLAYER->setVx(0);
 		PLAYER->setVy(0);
 		break;
@@ -187,7 +188,6 @@ void Player::setIsHaveHolyCross(bool isHaveHolyCross)
 {
 	this->isHaveHolyCross = isHaveHolyCross;
 }
-
 
 Player::~Player()
 {

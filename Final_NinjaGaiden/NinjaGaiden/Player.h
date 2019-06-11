@@ -7,23 +7,16 @@
 
 enum PLAYER_ACTION {
 	PLAYER_ACTION_STAND,
+	PLAYER_ACTION_SEAT,
 	PLAYER_ACTION_RUN, 
-	PLAYER_ACTION_SEAT, 
-	PLAYER_ACTION_SEAT_ATTACK_RIGHT,
-	PLAYER_ACTION_SEAT_ATTACK_LEFT,
-	PLAYER_ACTION_STAND_ATTACK_RIGHT,
-	PLAYER_ACTION_STAND_ATTACK_LEFT,
+	PLAYER_ACTION_CLIMB,
 	PLAYER_ACTION_JUMP,
 	PLAYER_ACTION_JUMP_ATTACK,
-	PLAYER_ACTION_CLIMB,
-	PLAYER_ACTION_ATTACK_RANGED_RIGHT,
-	PLAYER_ACTION_ATTACK_RANDED_LEFT,
+	PLAYER_ACTION_STAND_ATTACK,
+	PLAYER_ACTION_SIT_ATTACK,
+	PLAYER_ACTION_SHOOT,
 	PLAYER_ACTION_HURT,
-	PLAYER_ACTION_EAT_EFFECT, 
-	PLAYER_ACTION_DIE,
-	PLAYER_ACTION_DEAD,
 	PLAYER_ACTION_COUNT
-	
 };
 
 enum PLAYER_STATE
@@ -89,17 +82,6 @@ public:
 	void handleAttackSubWeapon();
 	bool getIsHaveHolyCross();
 	void setIsHaveHolyCross(bool isHaveHolyCross);
-
-	//handle on stair
-	PLAYER_STAIR_STATE getPlayerStairState();
-	void setPlayerStairState(PLAYER_STAIR_STATE playerStairState);
-	void setStartStair();
-	void setStopStair();
-	void goStairUp();
-	void goStairDown();
-	int getPlayerStairDestX();
-	int getPlayerStairDestY();
-	void setStairDirection(int stairDirection);
 
 	void updatePlayerEvent();
 

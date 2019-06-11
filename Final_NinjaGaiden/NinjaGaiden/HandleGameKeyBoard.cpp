@@ -18,7 +18,7 @@ void HandleGameKeyBoard::OnKeyDown(int KeyCode)
 			if (GAME->IsKeyDown(DIK_A)) {
 				PLAYER->setPlayerState(PLAYER_STATE_ATTACK);
 				//PLAYER->setAction(PLAYER_ACTION_STAND_ATTACK);
-				PLAYER->setAction(PLAYER_ACTION_STAND_ATTACK_RIGHT);
+				PLAYER->setAction(PLAYER_ACTION_STAND_ATTACK);
 			}
 
 		}
@@ -39,8 +39,7 @@ void HandleGameKeyBoard::OnKeyDown(int KeyCode)
 		if (GAME->IsKeyDown(DIK_DOWN)) {
 			PLAYER->setAction(PLAYER_ACTION_SEAT);
 			if (GAME->IsKeyDown(DIK_A)) {
-				PLAYER->setAction(PLAYER_ACTION_SEAT_ATTACK_RIGHT);
-				//PLAYER->setAction(PLAYER_ACTION_SEAT_ATTACK);
+				PLAYER->setAction(PLAYER_ACTION_SIT_ATTACK);
 				PLAYER->setPlayerState(PLAYER_STATE_ATTACK);
 			}
 		}
@@ -70,8 +69,8 @@ void HandleGameKeyBoard::KeyState(BYTE * states)
 			}
 			//Qua trái	
 			else if (GAME->IsKeyDown(DIK_LEFT)) {
-				PLAYER->setDir(RIGHT);
-				//PLAYER->setDir(LEFT);
+				//PLAYER->setDir(RIGHT);
+				PLAYER->setDir(LEFT);
 				PLAYER->setAction(PLAYER_ACTION_RUN);
 				PLAYER->setVx(-PLAYER_VX);
 			}
